@@ -404,3 +404,47 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* =========================
+   PRODUK PAGE
+========================= */
+
+.produk-page {
+  padding: 70px 0;
+}
+
+/* FILTER */
+
+.filter-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+
+  flex-wrap: wrap;
+
+  margin-bottom: 40px;
+}
+
+.filter-btn {
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: var(--radius-sm);
+
+  background-color: white;
+  color: var(--primary-color);
+
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: var(--transition);
+
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+.filter-btn:hover,
+.filter-btn.active {
+  background-color: var(--primary-color);
+  color: white;
+}
