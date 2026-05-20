@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Keranjang - Kennia Kids</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+      <div class="container navbar-content">
+        <div class="logo">
+          <img src="../img/logo.png" alt="Logo" />
+          <h2>Kennia Kids</h2>
+        </div>
+
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="indeks.html">Beranda</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="#" class="active">Keranjang</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- KERANJANG -->
+
+    <section class="cart-page">
+      <div class="container">
+        <div class="section-title">
+          <h2>Keranjang Belanja</h2>
+
+          <p>Produk yang telah dipilih</p>
+        </div>
+
+        <div class="cart-container">
+          <!-- ITEM -->
+
+          <div class="cart-item">
+            <div class="cart-image">Image Produk</div>
+
+            <div class="cart-info">
+              <h3>Dress Anak Pastel</h3>
+
+              <p>Ukuran: M</p>
+
+              <h4>Rp 85.000</h4>
+            </div>
+
+            <!-- QTY -->
+
+            <div class="cart-qty">
+              <button>-</button>
+
+              <span>1</span>
+
+              <button>+</button>
+            </div>
+          </div>
+
+          <!-- ITEM -->
+
+          <div class="cart-item">
+            <div class="cart-image">Image Produk</div>
+
+            <div class="cart-info">
+              <h3>Kaos Anak Premium</h3>
+
+              <p>Ukuran: L</p>
+
+              <h4>Rp 65.000</h4>
+            </div>
+
+            <div class="cart-qty">
+              <button>-</button>
+
+              <span>2</span>
+
+              <button>+</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- TOTAL -->
+
+        <div class="cart-total">
+          <h3>Total Belanja</h3>
+
+          <h2>Rp 215.000</h2>
+
+          <a href="checkout.html" class="btn-primary"> Checkout Sekarang </a>
+        </div>
+      </div>
+    </section>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

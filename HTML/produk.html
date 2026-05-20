@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Produk - Kennia Kids</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../CSS/style.css" />
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+
+    <header class="navbar">
+      <div class="container navbar-content">
+        <div class="logo">
+          <img src="../img/logo.png" alt="Logo" />
+          <h2>Kennia Kids</h2>
+        </div>
+
+        <nav>
+          <ul class="nav-menu">
+            <li><a href="indeks.html">Beranda</a></li>
+            <li><a href="#" class="active">Produk</a></li>
+            <li><a href="#">Kategori</a></li>
+            <li><a href="#">Kontak</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- PRODUK -->
+
+    <section class="produk-page">
+      <div class="container">
+        <div class="section-title">
+          <h2>Semua Produk</h2>
+
+          <p>Koleksi fashion terbaik untuk anak-anak</p>
+        </div>
+
+        <!-- FILTER -->
+
+        <div class="filter-container">
+          <button class="filter-btn active">Semua</button>
+
+          <button class="filter-btn">Bayi</button>
+
+          <button class="filter-btn">Perempuan</button>
+
+          <button class="filter-btn">Laki-laki</button>
+        </div>
+
+        <!-- SEARCH -->
+
+        <div class="search-container">
+          <input type="text" id="searchInput" placeholder="Cari produk..." />
+        </div>
+
+        <!-- GRID -->
+
+        <div class="produk-grid">
+          <!-- CARD 1 -->
+
+          <div class="produk-card">
+            <img src="" alt="" />
+
+            <div class="produk-info">
+              <h3 class="product-name">Dress Anak Pastel</h3>
+
+              <p>Rp 85.000</p>
+
+              <button class="detail-btn">Detail Produk</button>
+            </div>
+          </div>
+
+          <!-- CARD 2 -->
+
+          <div class="produk-card">
+            <img src="" alt="" />
+
+            <div class="produk-info">
+              <h3>Setelan Casual Anak</h3>
+
+              <p>Rp 120.000</p>
+
+              <button>Detail Produk</button>
+            </div>
+          </div>
+
+          <!-- CARD 3 -->
+
+          <div class="produk-card">
+            <img src="" alt="" />
+
+            <div class="produk-info">
+              <h3>Kaos Anak Premium</h3>
+
+              <p>Rp 65.000</p>
+
+              <button>Detail Produk</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MODAL -->
+
+    <div class="modal" id="productModal">
+      <div class="modal-content">
+        <span class="close-modal"> &times; </span>
+
+        <div class="modal-image">Image Produk</div>
+
+        <h2 id="modalTitle">Nama Produk</h2>
+
+        <p id="modalPrice">Rp 0</p>
+
+        <p class="modal-desc">
+          Produk anak berkualitas premium, nyaman dipakai sehari-hari.
+        </p>
+
+        <button class="btn-primary">Tambah ke Keranjang</button>
+      </div>
+    </div>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>
